@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "birdsong"
+version = "0.0.0"
+description = "Analytics on Twitter data"
+readme = "README.rst"
+requires-python = ">=3.8"
+dynamic = [
+    "dependencies",
+    "keywords",
+    "license"
+]
+authors = [
+  {name="Aphorikles", email="perceptua.blue@gmail.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Perceptua/birdsong"
+"Bugs" = "https://github.com/Perceptua/birdsong/issues"
+"Documentation" = "https://github.com/Perceptua/birdsong"
